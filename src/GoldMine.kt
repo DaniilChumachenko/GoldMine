@@ -8,10 +8,7 @@ import java.util.*
 fun main() {
     val rows = 4
     val columns = 4
-    val startTime = System.nanoTime()
     goldMine(fileToMassive(rows, columns), columns, rows)
-    val endTime = System.nanoTime()
-    print(endTime - startTime)
 }
 
 fun goldMine(gold: Array<IntArray>?, M: Int, N: Int) {
